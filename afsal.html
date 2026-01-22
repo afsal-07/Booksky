@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BookSky</title>
+    <link rel="stylesheet" href="afsal.css" />
+  </head>
+  <body>
+    <h1>📚 BookSky</h1>
+    <p>Your Simple Book Management Website</p>
+
+    <div class="add-book">
+      <h2>Add a Book</h2>
+
+      <input type="text" id="bookName" placeholder="Book Name" />
+      <input type="text" id="authorName" placeholder="Author Name" />
+      <textarea id="bookDesc" placeholder="Book Description"></textarea>
+
+      <button onclick="addBook()">Add Book</button>
+    </div>
+
+    <div class="book-list">
+      <h2>Book List</h2>
+      <div id="booklist"></div>
+    </div>
+
+    <p id="one">© 2026 BookSky Project</p>
+
+    <script src="afsal.js"></script>
+  </body>
+</html>
